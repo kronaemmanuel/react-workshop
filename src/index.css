@@ -22,3 +22,24 @@ body {
 .todoitem > label {
   padding-left: 0.5rem;
 }
+
+.todolist-add{
+  display: flex;
+  justify-content: space-between;
+}
+.todolist-add > input {
+  width: 70%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.25rem;
+}
+
+
+.todolist-add > button {
+  color: #fff !important;
+  background: #2196F3;
+  border-radius: 5px;
+  border: none;
+  padding: 0.25rem 1rem;
+}
+
